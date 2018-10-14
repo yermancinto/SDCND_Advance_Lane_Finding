@@ -32,7 +32,7 @@ A function is generated to unwrap the images. To do so I just selected 4 points 
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46917728-69ca2900-cfca-11e8-9a51-258d33244f74.png)
 
-## Define lane detection functions
+## Define Filter functions
 
 I used below functions (all given in the course):
 
@@ -50,7 +50,7 @@ After some tuning ans some trials I defined my pipeline function:
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46919002-17443900-cfd9-11e8-82c5-0a34f66d0802.png)
 
-## Define a 
+## Find the lane pixels and curve fitting 
 
 Once the binary image is generated, it is passed through the Find_lane_pixels function. This function splits the image vertically to and uses histograms to locate the lane pixels. 
 When located, they are aproximated to a 2nd degree curve using the fit_poly function:
@@ -59,6 +59,9 @@ When located, they are aproximated to a 2nd degree curve using the fit_poly func
 
 Both functions (find_lane_pixels & fit_poly) are copied from the course content
 
+## Measure the radius of the curves
+
+To do so I used the function given in the course and tunned the meter per pixel parameters:
 
 
 
