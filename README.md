@@ -63,5 +63,13 @@ Both functions (find_lane_pixels & fit_poly) are copied from the course content
 
 To do so I used the function given in the course and tunned the meter per pixel parameters:
 
+![imagen](https://user-images.githubusercontent.com/41348711/46919167-90449000-cfdb-11e8-8bf9-e1487adc0b49.png)
+
+## DEfine the process image function
+this function mainly:
+* Integrates the lane finding function with the radius and offset lane calculation 
+* Plots both lanes and fill the are in between them 
+* Prints the radius and the offset at the top of the image
+
 
 
