@@ -44,6 +44,8 @@ I used below functions (all given in the course):
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46918965-a56bef80-cfd8-11e8-8f1a-476af966436a.png)
 
+![imagen](https://user-images.githubusercontent.com/41348711/46918987-cd5b5300-cfd8-11e8-9436-57254896fef1.png)
+
 
 
 
