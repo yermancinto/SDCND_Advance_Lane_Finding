@@ -52,11 +52,12 @@ After some tuning ans some trials I defined my pipeline function:
 
 ## Define a 
 
-Once the binary image is generated, it is passed through the Find_lane_pixels function. This function splits the image vertically to and uses histograms to locate the lane pixels. When they are detected , they are aproximated to a 2nd degree curve using the fit_poly function:
+Once the binary image is generated, it is passed through the Find_lane_pixels function. This function splits the image vertically to and uses histograms to locate the lane pixels. 
+When located, they are aproximated to a 2nd degree curve using the fit_poly function:
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46919104-8cfcd480-cfda-11e8-8e12-a00edeae6c58.png)
 
-
+Both functions (find_lane_pixels & fit_poly) are copied from the course content
 
 
 
