@@ -24,3 +24,5 @@ Use mtx and dist parameters to undistort any image taken with that camera
 ### Unwrap images
 
 A function is generated to unwrap the images. To do so I just selected 4 points that define a rectangle in a straight line picture
+
+![imagen](https://user-images.githubusercontent.com/41348711/46917728-69ca2900-cfca-11e8-9a51-258d33244f74.png)
