@@ -73,6 +73,12 @@ this function mainly:
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46919222-7e172180-cfdc-11e8-9f82-6e9455d610b5.png)
 
+## Apply to the project video
+
+Using a similar pipeline to the one used in the first project, video images are extracted and process image function is applied to each frame of the video. Even I had no time to perform the line class and the function fit using previous fit the detection seems to work properly. 
+
+![imagen](https://user-images.githubusercontent.com/41348711/46919236-cd5d5200-cfdc-11e8-8bc2-89295dcc369e.png)
+
 
 
 
