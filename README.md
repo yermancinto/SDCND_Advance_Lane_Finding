@@ -18,4 +18,6 @@ Camera calibration images are extracted.
 Perform a loop operation across all the calibration images to extract all mtx and dist parameters.
 Use mtx and dist parameters to undistort any image taken with that camera
 
+![imagen](https://user-images.githubusercontent.com/41348711/46917671-e14b8880-cfc9-11e8-9299-165012fee99e.png)
+
 
