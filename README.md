@@ -65,11 +65,14 @@ To do so I used the function given in the course and tunned the meter per pixel 
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46919167-90449000-cfdb-11e8-8bf9-e1487adc0b49.png)
 
-## DEfine the process image function
+## Define the process image function
 this function mainly:
 * Integrates the lane finding function with the radius and offset lane calculation 
 * Plots both lanes and fill the are in between them 
 * Prints the radius and the offset at the top of the image
+
+![imagen](https://user-images.githubusercontent.com/41348711/46919222-7e172180-cfdc-11e8-9f82-6e9455d610b5.png)
+
 
 
 
