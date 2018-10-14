@@ -42,4 +42,13 @@ I used below functions (all given in the course):
 * Saturation threshold: Converting the image to HSV color space and extracting Saturation values on the range from 120 to 255
 * Red color threshold: Using the RGB color image, extract the Red values in the range from 200 to 255
 
+![imagen](https://user-images.githubusercontent.com/41348711/46918965-a56bef80-cfd8-11e8-8f1a-476af966436a.png)
+
+
+
+
+
+
+
+
 
