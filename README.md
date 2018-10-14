@@ -18,7 +18,7 @@ Camera calibration images are extracted.
 Perform a loop operation across all the calibration images to extract all mtx and dist parameters:
 ![imagen](https://user-images.githubusercontent.com/41348711/46917754-bb72b380-cfca-11e8-99f0-86c789885039.png)
 Use mtx and dist parameters to undistort any image taken with that camera:
-![imagen](https://user-images.githubusercontent.com/41348711/46917783-08568a00-cfcb-11e8-907a-1fca755bfb69.png)
+
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46917671-e14b8880-cfc9-11e8-9299-165012fee99e.png)
 
@@ -26,5 +26,5 @@ Use mtx and dist parameters to undistort any image taken with that camera:
 ### Unwrap images
 
 A function is generated to unwrap the images. To do so I just selected 4 points that define a rectangle in a straight line picture
-
+![imagen](https://user-images.githubusercontent.com/41348711/46917783-08568a00-cfcb-11e8-907a-1fca755bfb69.png)
 ![imagen](https://user-images.githubusercontent.com/41348711/46917728-69ca2900-cfca-11e8-9a51-258d33244f74.png)
