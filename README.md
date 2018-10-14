@@ -15,7 +15,8 @@ The goals / steps of this project are the following:
 ### Camera Calibration
 
 Camera calibration images are extracted. 
-Perform a loop operation across all the calibration images to extract all mtx and dist parameters.
+Perform a loop operation across all the calibration images to extract all mtx and dist parameters:
+![imagen](https://user-images.githubusercontent.com/41348711/46917754-bb72b380-cfca-11e8-99f0-86c789885039.png)
 Use mtx and dist parameters to undistort any image taken with that camera
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46917671-e14b8880-cfc9-11e8-9299-165012fee99e.png)
