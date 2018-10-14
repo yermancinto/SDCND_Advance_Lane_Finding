@@ -34,10 +34,12 @@ A function is generated to unwrap the images. To do so I just selected 4 points 
 
 ## Define threshold functions
 
-I used 4 of the functions given in the course:
+I used below functions (all given in the course):
 
-* Absolute threshold (x & y): Extract from the freysclaed image the sobel X values in the range 20-250
-* Magnitude treshold:Form the greyscaled image extract the values whose aboslute magnitude threshold (X & Y) is inside the range 30 to 100
-* Direction threshold: As recommended in the course I check in the range 0.7 to 1.3
+* Absolute threshold (x & y): Extract from the greysclaed image the sobel X values in the range 20-250
+* Magnitude threshold: Form the greyscaled image extract the values whose aboslute magnitude threshold (X & Y) is inside the range 30 to 100
+* Direction threshold: As recommended in the course I checked in the range 0.7 to 1.3
 * Saturation threshold: Converting the image to HSV color space and extracting Saturation values on the range from 120 to 255
 * Red color threshold: Using the RGB color image, extract the Red values in the range from 200 to 255
+
+
