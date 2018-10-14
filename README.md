@@ -32,7 +32,7 @@ A function is generated to unwrap the images. To do so I just selected 4 points 
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46917728-69ca2900-cfca-11e8-9a51-258d33244f74.png)
 
-## Define threshold functions
+## Define lane detection functions
 
 I used below functions (all given in the course):
 
@@ -46,7 +46,13 @@ I used below functions (all given in the course):
 
 ![imagen](https://user-images.githubusercontent.com/41348711/46918987-cd5b5300-cfd8-11e8-9436-57254896fef1.png)
 
+After some tuning ans some trials I defined my pipeline function: 
 
+![imagen](https://user-images.githubusercontent.com/41348711/46919002-17443900-cfd9-11e8-82c5-0a34f66d0802.png)
+
+## Define a 
+
+Once the binary image is generated, it is passed through the Find_lane_pixels function. This function splits the image vertically to and uses histograms to locate the lane pixels. When they are detected , they are aproximated to a 2nd degree curve using the fit_poly function:
 
 
 
